@@ -1,4 +1,20 @@
+html {
+    font-size: 2vw;
+}
+
 body {
-  font-size: 14px;
-  color: red; /*color*/
+    color: red;
+    /*color*/
+}
+
+.input_class {
+    width: 100%;
+}
+
+/*h1 {
+    font-size: 1em;
+}*/
+
+h2 {
+    font-size: 3rem;
 }
