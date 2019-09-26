@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    color: rgba(255, 0, 0, 50%);
+    color: rgba(255, 0, 0, 40%);
     /*color*/
 }
 
@@ -22,4 +22,9 @@ h1 {
 
 #myid {
     background-color: aqua;
+    display: inline-block;
+}
+
+* {
+    border: solid 1px;
 }
