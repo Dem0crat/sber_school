@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    color: red;
+    color: rgba(255, 0, 0, 50%);
     /*color*/
 }
 
@@ -15,6 +15,11 @@ body {
     font-size: 1em;
 }*/
 
-h2 {
-    font-size: 3rem;
+h2,
+h1 {
+    font-size: 1rem;
+}
+
+#myid {
+    background-color: aqua;
 }
