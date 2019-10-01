@@ -1,30 +1,39 @@
 html {
-    font-size: 2vw;
+  font-size: 20px;
 }
 
-body {
-    color: rgba(255, 0, 0, 40%);
-    /*color*/
+#grid {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "nav article ads"
+    "footer footer footer";
+  grid-template-rows: 60px, 1fr, 60px;
+  grid-template-columns: 20%, 1fr, 15%;
+  grid-gap: 2vw;
+  margin: 0;
 }
 
-.input_class {
-    width: 100%;
+header,
+footer,
+article,
+nav,
+.ads {
+  padding: 20px;
+  background: #cacfd2;
 }
-
-/*h1 {
-    font-size: 1em;
-}*/
-
-h2,
-h1 {
-    font-size: 1rem;
+#pageHeader {
+  grid-area: header;
 }
-
-#myid {
-    background-color: aqua;
-    display: inline-block;
+#pageFooter {
+  grid-area: footer;
 }
-
-* {
-    border: solid 1px;
+#mainArticle {
+  grid-area: article;
+}
+#mainNav {
+  grid-area: nav;
+}
+#siteAds {
+  grid-area: ads;
 }
